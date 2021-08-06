@@ -4,12 +4,14 @@ img {
   float: right;
   margin: 15px;
   padding: 5px;
+  border: solid lightslategrey;
   box-sizing: border-box;
 }
 
 body {
   font-family: Helvetica;
   font-weight: lighter;
+  background-color: whitesmoke;
 }
 
 .column {
