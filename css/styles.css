@@ -1,7 +1,7 @@
 img {
   width: 25%;
   height: auto;
-  float: left;
+  float: right;
   margin: 15px;
   padding: 5px;
   box-sizing: border-box;
@@ -13,8 +13,11 @@ body {
 }
 
 .column {
-  width: 50%;
   float: left;
-  border: 5px;
-  border-color: darkgray;
+  width: 50%;
+  display: block;
+  border: 2px solid lightgrey;
+  margin: 5px;
+  padding: 5px;
+  box-sizing: border-box;
 }
