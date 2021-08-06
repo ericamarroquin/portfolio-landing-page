@@ -13,11 +13,12 @@ body {
 }
 
 .column {
-  float: left;
   width: 50%;
-  display: block;
-  border: 2px solid lightgrey;
-  margin: 5px;
+  float: left;
   padding: 5px;
   box-sizing: border-box;
+}
+
+.thin {
+  line-height: 0.5;
 }
